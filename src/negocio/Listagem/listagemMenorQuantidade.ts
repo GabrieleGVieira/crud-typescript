@@ -41,13 +41,16 @@ export default class ListagemMenorQuantidade extends Listagem {
     ordem = ordem.slice(0, 4);
 
     console.log(
-      "Os 5 clientes que mmenos consumiram produtos/serviços (em quantidade)"
+      "\nOs 5 clientes que mmenos consumiram produtos/serviços (em quantidade)"
     );
+    
+    console.log(`--------------------------------------\n`);
 
     ordem.forEach((consumo) => {
           console.log("CPF: " + consumo.cpf);
           console.log("Nome do cliente: " + consumo.nome);
           console.log("Quantidade Consumida: " + consumo.quantidade);
+          console.log(`--------------------------------------\n`);
 
   });
 
