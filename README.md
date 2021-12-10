@@ -18,15 +18,16 @@ Desenvolver um sistema do tipo CLI (command-line interface) com o objetivo supri
 
 ## - Diagrama de Classes -  
 Para o desenvolvimento do projeto, foi utilizado o diagrama de classes abaixo, que contém as estruturas e relacionamentosentre as classes:
-#inserir foto do diagrama
+
+![diagrama-classe](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/diagrama-classes.png)
 
 
 ## - Índice -
 <a name="ancora"></a>
+  
+ [Ferramentas utilizadas](#ancora2)
  
  [Requisitos](#ancora1)
- 
- [Ferramentas utilizadas](#ancora2)
  
  [Entregas](#ancora3)
  
@@ -58,21 +59,51 @@ Para o desenvolvimento do projeto, foi utilizado o diagrama de classes abaixo, q
 - Listagem de todos os clientes por gênero.
 - Listagem geral dos serviços ou produtos mais consumidos.
 - Listagem dos serviços ou produtos mais consumidos por gênero.
-- Listagem dos 10 clientes que menos consumiram produtos ou serviços.
+- Listagem dos 5 clientes que menos consumiram produtos ou serviços.
 - Listagem dos 5 clientes que mais consumiram em valor, não em quantidade.
 
 <a id="ancora3"></a>
 ## - ENTREGAS - :computer_mouse: 
 
 - [x] CRUD de Clientes
+
+Exemplo: Cadastro
+
+![cadastro-cliente](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/cliente-cadastro.png)
+
+
 - [x] CRUD de Produtos e Serviços
+
+Exemplo: Atualização de Produto
+
+![update-produto](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/produto-update.png)
+
 - [x] Registro de consumo dos produtos ou serviços que cada cliente adquiriu.
-- [x] Listagem dos 10 clientes que mais consumiram produtos ou serviços, em quantidade, não em valor.
+
+![inserir-consumo](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/inserir-consumo.png)
+
 - [x] Listagem de todos os clientes por gênero.
-- [x] Listagem geral dos serviços ou produtos mais consumidos.
+
+![listagem-genero](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/listagem-genero.png)
+
 - [x] Listagem dos serviços ou produtos mais consumidos por gênero.
-- [x] Listagem dos 10 clientes que menos consumiram produtos ou serviços.
+
+- [x] Listagem geral dos serviços ou produtos mais consumidos.
+
+![maior-consumo](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/listagem-consumo.png)
+
+- [x] Listagem dos 5 clientes que menos consumiram produtos ou serviços.
+
+![menor-quantidade](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/listagem-menor-quantidade.png)
+
+- [x] Listagem dos 10 clientes que mais consumiram produtos ou serviços, em quantidade, não em valor.
+
+![maior-quantidade](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/listagem-maior-quantidade.png)
+
 - [x] Listagem dos 5 clientes que mais consumiram em valor, não em quantidade.
+
+![maior-valor](https://github.com/GabrieleGVieira/crud-typescript/blob/master/imagens/listagem-maior-valor.png)
+
 
 <a id="ancora4"></a>
 ## - PASTAS 📁
@@ -83,7 +114,7 @@ O código está dividído da seguinte maneira dentro da pasta <a href="https://g
 📁 <a href="https://github.com/GabrieleGVieira/crud-typescript/tree/master/src/modelo">/modelo:</a> Pasta onde fica localizada as classes <br />
 📁 <a href="https://github.com/GabrieleGVieira/crud-typescript/tree/master/src/io">/io:</a> Pasta onde fica localizado o código para entrada e saída de valores no prompt <br />
 📁 <a href="https://github.com/GabrieleGVieira/crud-typescript/tree/master/src/negocio">/negocio:</a> Pasta onde fica localizada as classes das funcionalidades <br />
-📁 <a href="https://github.com/GabrieleGVieira/crud-typescript/tree/master/src/apps"> /app:</a> Pasta principal da main <br />
+📁 <a href="https://github.com/GabrieleGVieira/crud-typescript/tree/master/src/app"> /app:</a> Pasta principal da main <br />
 
 <a id="ancora5"></a>
 ## - EXECUÇÃO
